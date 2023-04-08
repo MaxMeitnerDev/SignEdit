@@ -1,0 +1,16 @@
+name: SignEdit
+author: MaxMeitner
+description: A plugin that adds the ability to edit sign using flint.
+website: https://discord.gg/a8yTnMWv8r
+version: '${project.version}'
+main: maxmeitner.signedit.SignEdit
+api-version: 1.13
+softdepend:
+  - WorldGuard
+  - WorldEdit
+commands:
+  signedit:
+    aliases:
+      - se
+      - signe
+      - sedit

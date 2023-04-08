@@ -1,0 +1,8 @@
+messages:
+  spawnProtection: "&7[&c&l!&7] &fYou cannot edit the sign on the spawn, since the spawn is protected."
+  non-yourRegion: "&7[&c&l!&7] &fYou can't edit a sign in a non-your region."
+  configReloaded: "&7[&a&l!&7] &fConfig has been reloaded."
+  noPerm: "&7[&c&l!&7] &fYou don't have permission. &7({perm})"
+  help: |
+    &7[&e&l?&7] &fSignEdit plugin Help:
+        &f/signedit reload - &7Reload the plugin config.
