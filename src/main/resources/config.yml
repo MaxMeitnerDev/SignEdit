@@ -1,3 +1,6 @@
+settings:
+  requireFlint: true
+  colorSupport: true
 messages:
   spawnProtection: "&7[&c&l!&7] &fYou cannot edit the sign on the spawn, since the spawn is protected."
   non-yourRegion: "&7[&c&l!&7] &fYou can't edit a sign in a non-your region."

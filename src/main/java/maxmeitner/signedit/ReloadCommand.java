@@ -1,5 +1,6 @@
 package maxmeitner.signedit;
 
+import maxmeitner.signedit.utils.ConfHandler;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -12,7 +13,7 @@ public class ReloadCommand implements CommandExecutor {
             return false;
         }
 
-        if (!sender.hasPermission("signedit.reload") && !sender.isOp()) {
+        if (!sender.hasPermission("signedit.reload")) {
             sender.sendMessage(ConfHandler.improve("messages.noPerm").replace("{perm}", "signedit.reload"));
             return false;
         }

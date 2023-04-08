@@ -1,4 +1,4 @@
-package maxmeitner.signedit;
+package maxmeitner.signedit.utils;
 
 import lombok.Getter;
 import org.bukkit.block.Sign;
@@ -20,7 +20,5 @@ public class SignEditEvent extends Event {
     }
 
     @Override
-    public HandlerList getHandlers() {
-        return handlerList;
-    }
+    public HandlerList getHandlers() {return handlerList;}
 }
